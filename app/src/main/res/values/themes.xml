@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" >
+        <!-- Color de fondo de la Toolbar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Color de texto y elementos de la Toolbar -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <!-- Color de la barra de estado -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/verdeO</item>
+
+        <!-- Iconos de la barra de estado en blanco -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Estilo para el Checkbox marcado -->
+    <style name="CustomCheckboxStyle">
+        <item name="colorControlActivated">@color/yellow</item> <!-- Color amarillo cuando está marcado -->
+        <item name="android:buttonTint">@color/yellow</item> <!-- Cambia el color del button al marcarlo -->
+    </style>
+
+
+</resources>
